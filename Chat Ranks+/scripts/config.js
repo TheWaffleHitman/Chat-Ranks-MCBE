@@ -39,23 +39,23 @@ export const config = {
         //Basic setting for players without permission
         1:{
             default:true, //if you put false when the player sends the message it will be the basic one
-            chat_display:'§8[§asteve§8]',
-            chat_display_after:'§8>>',
-            name_player_color:'§f',
-            chat_color:'§f'
+            chat_display:'§c[§aCitizen§8]',
+            chat_display_after:'§9>>',
+            name_player_color:'§c',
+            chat_color:'§9'
         },
         //allow list for players who have the tag
         2:{
-            tag:'admin',  //the tag that the player must have to have changes in chat
-            chat_display:'§8[§dAdmin§8]', //as you will see the first part of the player role chat
-            chat_display_after:'§a>>', //what will be after the player's name
-            chat_color:'§2', //the color of the message the player sends
-            name_player_color:'§4', //color of the player's name that will be seen in chat
-            description:'Has a high level of control over the server, often can change gameplay and has permission to ban or unban players' //the tag description you will see with the -rank list command
+            tag:'general',  //the tag that the player must have to have changes in chat
+            chat_display:'§f[§dGeneral§8]', //as you will see the first part of the player role chat
+            chat_display_after:'§f>>', //what will be after the player's name
+            chat_color:'§c', //the color of the message the player sends
+            name_player_color:'§9', //color of the player's name that will be seen in chat
+            description:'Highest Rank in the Alaskan National Guard Server
         },
         3:{
-            tag:'mod',
-            chat_display:'§8[§aMod§8]',
+            tag:'commander',
+            chat_display:'§c[§fCommander§f]',
             chat_display_after:'§d>>',
             chat_color:'§5',
             name_player_color:'§d',
